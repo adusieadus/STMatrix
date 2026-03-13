@@ -13,6 +13,7 @@ typedef struct
 //may have to remove it and just stick to a normal array or a array or pointers
 STMATRIX NewMatrix (int rows, int cols, char[3]); 
 
+//maybe pass in reference to matrix instead of copies
 void PrintMatrix (STMATRIX matrix);
 
 void SwapRows (STMATRIX matrix, int row1, int row2);
